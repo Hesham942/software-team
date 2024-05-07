@@ -10,3 +10,5 @@ def button_click(char):
     global calc_operator
     calc_operator += str(char)
     text_input.set(calc_operator)
+def button_clear_all():
+    pass
