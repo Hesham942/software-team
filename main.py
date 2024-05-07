@@ -14,3 +14,5 @@ def button_clear_all():
     global calc_operator
     calc_operator = ""
     text_input.set("")
+def button_delete():
+    pass
