@@ -91,4 +91,11 @@ def sign_change():
     else:
         temp = '-'+calc_operator
     calc_operator = temp
+    text_input.set(temp
+
+def percent():
+    global calc_operator
+    temp = str(eval(calc_operator + '/100'))
+    calc_operator = temp
     text_input.set(temp)
+
