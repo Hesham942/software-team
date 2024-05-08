@@ -91,7 +91,4 @@ def sign_change():
     else:
         temp = '-'+calc_operator
     calc_operator = temp
-    text_input.set(temp
-
-
-
+    text_input.set(temp)
