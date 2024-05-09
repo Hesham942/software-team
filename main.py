@@ -94,11 +94,3 @@ def sign_change():
     text_input.set(temp)
 
 
-
-
-
-
-
-
-
-tk_calc.mainloop()
