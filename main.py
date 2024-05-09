@@ -148,7 +148,22 @@ factorial_button = Button(tk_calc, button_params, text='x!',
 eulers_num = Button(tk_calc, button_params, text='e',
                     command=lambda:button_click(str(math.exp(1)))).grid(row=1, column=4, sticky="nsew")
 
-
+#--2nd row--
+# Sine of an angle in degrees
+sine = Button(tk_calc, button_params, text='sin',
+             command=trig_sin).grid(row=2, column=0, sticky="nsew")
+# Cosine of an angle in degrees
+cosine = Button(tk_calc, button_params, text='cos',
+             command=trig_cos).grid(row=2, column=1, sticky="nsew")
+# Tangent of an angle in degrees
+tangent = Button(tk_calc, button_params, text='tan',
+             command=trig_tan).grid(row=2, column=2, sticky="nsew")
+# Cotangent of an angle in degrees
+cotangent = Button(tk_calc, button_params, text='cot',
+             command=trig_cot).grid(row=2, column=3, sticky="nsew")
+# Pi(3.14...) number
+pi_num = Button(tk_calc, button_params, text='π',
+                command=lambda:button_click(str(math.pi))).grid(row=2, column=4, sticky="nsew")
 
 #--3rd row--
 # Power of 2
