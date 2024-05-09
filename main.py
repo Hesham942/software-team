@@ -92,18 +92,4 @@ def sign_change():
         temp = '-'+calc_operator
     calc_operator = temp
     text_input.set(temp)
-    
 
-# Function to calculate the percentage of a number
-def percent():
-    global calc_operator
-    temp = str(eval(calc_operator+'/100'))
-    calc_operator = temp
-    text_input.set(temp)
-
-# Funtion to find the result of an operation
-def button_equal():
-    global calc_operator
-    temp_op = str(eval(calc_operator))
-    text_input.set(temp_op)
-    calc_operator = temp_op
