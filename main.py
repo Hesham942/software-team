@@ -93,4 +93,3 @@ def sign_change():
     calc_operator = temp
     text_input.set(temp)
 
-
