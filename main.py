@@ -83,12 +83,3 @@ def third_root():
         temp = "ERROR"
     text_input.set(temp)
 
-# Function to change the sign of number
-def sign_change():
-    global calc_operator
-    if calc_operator[0]=='-':
-        temp = calc_operator[1:]
-    else:
-        temp = '-'+calc_operator
-    calc_operator = temp
-    text_input.set(temp)
