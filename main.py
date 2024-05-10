@@ -182,6 +182,7 @@ inv_power = Button(tk_calc, button_params, text='x\u207b\xb9',
 tens_powers = Button(tk_calc, button_params, text='10^x', font=('sans-serif', 15, 'bold'),
                      command=lambda:button_click('10**')).grid(row=3, column=4, sticky="nsew")
 
+
 #--4th row--
 # Square root of a number
 square_root = Button(tk_calc, button_params, text='\u00B2\u221A',
@@ -198,7 +199,6 @@ log_base10 = Button(tk_calc, button_params, text='log\u2081\u2080', font=('sans-
 # Logarithm of a number with base e (ln)
 log_basee = Button(tk_calc, button_params, text='ln',
                    command=lambda:button_click('ln(')).grid(row=4, column=4, sticky="nsew")
-
 #--5th row--
 # Add a left parentheses
 left_par = Button(tk_calc, button_params, text='(',
