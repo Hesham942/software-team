@@ -255,6 +255,8 @@ sub = Button(tk_calc, button_params_main, text='-',
 #--9th row--
 button_0 = Button(tk_calc, button_params_main, text='0',
                   command=lambda:button_click('0')).grid(row=9, column=0, sticky="nsew")
+point = Button(tk_calc, button_params_main, text='.',
+               command=lambda:button_click('.')).grid(row=9, column=1, sticky="nsew")
 
 
 
