@@ -65,7 +65,16 @@ def trig_cot():
     text_input.set(result)   
 
 
-
+# Function to find the square root of a number
+def square_root():
+    global calc_operator
+    if int(calc_operator)>=0:
+        temp = str(eval(calc_operator+'**(1/2)'))
+        calc_operator = temp
+    else:
+        temp = "ERROR"
+    text_input.set(temp)
+    
 # Function to find the third root of a number
 def third_root():
     global calc_operator
