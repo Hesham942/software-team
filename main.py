@@ -257,6 +257,10 @@ button_0 = Button(tk_calc, button_params_main, text='0',
                   command=lambda:button_click('0')).grid(row=9, column=0, sticky="nsew")
 point = Button(tk_calc, button_params_main, text='.',
                command=lambda:button_click('.')).grid(row=9, column=1, sticky="nsew")
+exp = Button(tk_calc, button_params_main, text='EXP', font=('sans-serif', 16, 'bold'),
+             command=lambda:button_click(E)).grid(row=9, column=2, sticky="nsew")
+equal = Button(tk_calc, button_params_main, text='=',
+               command=button_equal).grid(row=9, columnspan=2, column=3, sticky="nsew")
 
 
 
