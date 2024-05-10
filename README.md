@@ -1,4 +1,13 @@
 # software-team
+- [Description](#Description)
+- [Introduction](#Introduction)
+- [Features](#Features)
+- [Team Soft Skills and Collaboration](#Team-Soft-Skills-and-Collaboration)
+- [Effective Communication](#Effective-Communication)
+- [Collaboration and Teamwork](#Collaboration-and-Teamwork)
+- [Soft Skills in Pull Requests and Commits](#Soft-Skills-in-Pull-Requests-and-Commits)
+- [Contributing](#Contributing)
+- [Conclusion](#Conclusion)
 ## Tkinter Calculator
 ### Description
 Welcome to the Calculator Project! This project aims to develop a simple calculator application using python and ''GUI''tkinter.
