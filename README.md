@@ -11,6 +11,10 @@
 ## Tkinter Calculator
 ### Description
 Welcome to the Calculator Project! This project aims to develop a simple calculator application using python and ''GUI''tkinter.
+
+
+![Screenshot 2024-05-10 001442](https://github.com/Hesham942/software-team/assets/154346647/203e1a06-da67-450b-9f47-40245a009111)
+
 ### Introduction
 This calculator app is designed to perform basic and some advanced arithmetic operations such as addition, subtraction, multiplication, and division , calculate trigonometric numbers of an angle
 find the square root of a number, find the third root of a number , change the sign of number , calculate the percentage of a number
